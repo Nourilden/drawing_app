@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: inline-block;
+    border: 2px solid #ccc;
+    background: #fff;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+.controls {
+    margin-top: 15px;
+}
+
+.controls label {
+    margin-right: 10px;
+}
+
+#brushSize {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#clearCanvas {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#clearCanvas:hover {
+    background-color: #e60000;
+}
